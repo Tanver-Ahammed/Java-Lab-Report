@@ -1,7 +1,7 @@
 package com.shamimsir.lab5.prob4;
 
 public class Vehicle {
-    private String number, insuranceNumber;
+    private double number, insuranceNumber;
     private String color;
 
     public double getConsumption(double con) {

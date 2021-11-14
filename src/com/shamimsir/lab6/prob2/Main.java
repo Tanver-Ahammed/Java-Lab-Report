@@ -4,7 +4,6 @@ public class Main {
     public static void main(String[] args) {
 
         HourlyEmployee hourlyEmployee = new HourlyEmployee();
-
         System.out.println(hourlyEmployee.getAmount(25, 250));
 
 

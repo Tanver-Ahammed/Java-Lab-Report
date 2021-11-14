@@ -2,9 +2,21 @@ package com.shamimsir.lab6.prob1;
 
 public class MainClass {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        for (int a : arr) {
-            System.out.println(a);
-        }
+
+        Circle circle = new Circle();
+        System.out.println(circle.getArea(5));
+        System.out.println(circle.getVolume(5));
+
+        Cube cube = new Cube();
+        System.out.println(cube.getArea(2));
+        System.out.println(cube.getVolume(2));
+
+        Square square = new Square();
+        System.out.println(square.getArea(2));
+        System.out.println(square.getVolume(2));
+
+        Sphere sphere = new Sphere();
+        System.out.println(sphere.getArea(2));
+        System.out.println(sphere.getVolume(2));
     }
 }
